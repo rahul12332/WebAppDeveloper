@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shorcut icon" href="images/web.png" type="image/png">
+
+    <title>Developer</title>
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="continer-fluid mt-5">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    {{!-- leftside --}}
+                    <div
+                        class="col-md-6 md-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                        <h1>WE WILL HELP TO YOU</h1>
+                        <h1>GROW YOUR BUSINESS</h1>
+                        <p>We are the team of developers</p>
+                        <button type="button" class="btn btn-warning" id="Readme"><a href="https://www.linkedin.com/in/amit-chandra-280353225/" target="_blank">Readme</a></button>
+
+                    </div>
+                    {{!-- rightside --}}
+                    <div class="col-md-6 md-12 hero-image order-md-1 order-0 d-flex">
+                        <figure id="image">
+                            <img src="images/men.png" alt="">
+                        </figure>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{!-- // about us --}}
+        {{>about}}
+
+        {{!-- our Service --}}
+        {{>services}}
+
+        {{!-- maps --}}
+         {{>maps}}
+          
+         {{!-- contanct us --}}
+        {{>contact}}
+
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+
+</body>
+
+</html>
